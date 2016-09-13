@@ -1,0 +1,11 @@
+<script>
+var tweet = prompt("Please express your thoughts in under 140 characters please");
+if (tweet.length > 140)
+{
+alert ("You have exceeded the character length by " (tweet.length - 140)  " characters");
+}
+else
+{
+confirm("Ready to Post!")
+}
+</script>
